@@ -44,7 +44,7 @@ export class FeedbackPage {
             this.cancl = resp;
         })
         console.log('ionViewDidLoad FeedbackPage');
-        this.get_user_lang();
+        // this.get_user_lang();
         this.Feedbackdata();
         this.translate.get("OK")
         .subscribe(resp=>{

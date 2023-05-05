@@ -67,6 +67,7 @@ export class HomePage {
         this.presentLoading();
         this.notification();
         this.lang = this.navParams.get("lang");
+        console.log(this.lang);
     }
     ionViewWillEnter()
     {
@@ -474,21 +475,21 @@ export class HomePage {
     
     goOnOffersListPage(){
        
-        this.navCtrl.push(OfferListPage);
+        this.navCtrl.push(OfferListPage ,{'lang':this.lang});
         
     }
     goOnOffersPage(id)
     {
-        this.navCtrl.push(OffersPage,{'id':id});
+        this.navCtrl.push(OffersPage,{'id':id ,'lang':this.lang});
     }
     
     goOnPointeListPage(){
-        this.navCtrl.push(PointListPage);
+        this.navCtrl.push(PointListPage,{'lang':this.lang});
         
     }
     goOnWorkingSitePage()
     {
-        this.navCtrl.push(WorkingSitePage);
+        this.navCtrl.push(WorkingSitePage,{'lang':this.lang});
     }
     gotoCompass()
     {
@@ -501,7 +502,7 @@ export class HomePage {
     
     goOnFeedbackPage()
     {
-        this.navCtrl.push(FeedbackPage);
+        this.navCtrl.push(FeedbackPage,{'lang':this.lang});
     }
     presentLoading() 
     {
@@ -518,20 +519,20 @@ export class HomePage {
     
     goOnFurniturePage()
     {
-        this.navCtrl.push(FurnitureIdeasPage);
+        this.navCtrl.push(FurnitureIdeasPage,{'lang':this.lang});
     }
     goOnProductsPage()
     {
-        this.navCtrl.push(ProductsPage);
+        this.navCtrl.push(ProductsPage,{'lang':this.lang});
     }
     goOnCategoryPage(){
-        this.navCtrl.push(MainCategoryPage);
+        this.navCtrl.push(MainCategoryPage,{'lang':this.lang});
     }
     goOnArrivalProductsPage(){
-        this.navCtrl.push(ArrivalProductPage);
+        this.navCtrl.push(ArrivalProductPage,{'lang':this.lang});
     }
     goOnOfferProductsPage(){
-        this.navCtrl.push(OfferProductPage);
+        this.navCtrl.push(OfferProductPage,{'lang':this.lang});
     }
     viewDetail()
     {
@@ -539,20 +540,20 @@ export class HomePage {
     }
     viewDetail2()
     {
-        this.navCtrl.push(ProductImgPage)
+        this.navCtrl.push(ProductImgPage ,{'lang':this.lang})
     }
     gotoHistory()
     {
-        this.navCtrl.push(TransactionPage)
+        this.navCtrl.push(TransactionPage,{'lang':this.lang})
     }
     goOnGiftGallary()
     {
        
-        this.navCtrl.push(GiftListPage)
+        this.navCtrl.push(GiftListPage,{'lang':this.lang})
     }
     goOnNewsPage()
     {
-        this.navCtrl.push(NewsPage);
+        this.navCtrl.push(NewsPage,{'lang':this.lang});
     }
 
     alert1(){
@@ -575,7 +576,7 @@ export class HomePage {
   
     goOnProfile()
     {
-        this.navCtrl.push(ProfilePage)
+        this.navCtrl.push(ProfilePage ,{'lang':this.lang})
     }
 
     goOnRedeemListPage(){
@@ -595,29 +596,29 @@ export class HomePage {
         // this.navCtrl.push(RedeemTypePage,{'mode':'home',"balance_point":this.total_balance_point, "redeem_point":this.karigar_detail.redeem_balance, "Status":this.karigar_detail.status});
         }
         else{
-            this.navCtrl.push(GiftListPage)
+            this.navCtrl.push(GiftListPage,{'lang':this.lang})
         }
         
     }
     goOnVideoPage()
     {
-        this.navCtrl.push(VideoPage);
+        this.navCtrl.push(VideoPage,{'lang':this.lang});
     }
     goOnContactPage()
     {
-        this.navCtrl.push(ContactPage);
+        this.navCtrl.push(ContactPage,{'lang':this.lang});
     }
     goOnfaqPage()
     {
-        this.navCtrl.push(FaqPage);
+        this.navCtrl.push(FaqPage,{'lang':this.lang});
     }
     goOnAdvanceTextPage()
     {
-        this.navCtrl.push(AdvanceTextPage);
+        this.navCtrl.push(AdvanceTextPage,{'lang':this.lang});
     }
     gotoNotification()
     {
-        this.navCtrl.push(NotificationPage);
+        this.navCtrl.push(NotificationPage,{'lang':this.lang});
     }
     gotoChangeLang()
     {

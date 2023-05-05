@@ -24,6 +24,10 @@ export class GiftListPage {
     uploadUrl:any='';
     constructor(public navCtrl: NavController, public navParams: NavParams,public service:DbserviceProvider,public loadingCtrl:LoadingController,private app: App,public storage:Storage,public translate:TranslateService,public db:DbserviceProvider,public constant:ConstantProvider) {
         this.mode = this.navParams.get('mode');
+        this.lang = this.navParams.get('lang');
+
+        console.log( this.lang)
+
         if(this.mode)
         {
             this.mode= this.mode;
@@ -40,12 +44,12 @@ export class GiftListPage {
     ionViewDidLoad() {
         console.log('ionViewDidLoad GiftListPage');
         this.uploadUrl = this.constant.upload_url;
-        this.get_user_lang();
+        // this.get_user_lang();
         this.presentLoading();
     }
     ionViewWillEnter()
     {
-        this.get_user_lang();
+        // this.get_user_lang();
         this.getGiftList('');
     }
     
