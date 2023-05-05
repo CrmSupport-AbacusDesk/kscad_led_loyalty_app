@@ -223,7 +223,16 @@
       "Visting Card":"विजिटिंग कार्ड",
       "Upload Visting Card":"विज़िटिंग कार्ड अपलोड करें",
       "Other Point":"अन्य अंक",
-      "Upload Document Is Required!":"डाक्यमेन्ट अपलोड करना आवश्यक है!"
+      "Upload Document Is Required!":"डाक्यमेन्ट अपलोड करना आवश्यक है!",
+
+
+
+      "Point History":"बिंदु इतिहास",
+      "Pdf Catalogues":"पीडीएफ कैटलॉग",
+      "Gift Gallery":"उपहार गैलरी",
+      "Balance Points":"बैलेंस पॉइंट्स",
+      "We are not running any offers in your region!":"हम आपके क्षेत्र में कोई ऑफर नहीं चला रहे हैं!",
+      "My Offer":"मेरा प्रस्ताव"
 
       
 }
