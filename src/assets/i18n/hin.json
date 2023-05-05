@@ -1,6 +1,8 @@
 {
       "Enter your mobile number to get started" : "आरंभ करने के लिए अपना मोबाइल नंबर दर्ज करें",
       "Mobile number" : "मोबाइल नंबर",
+      "Mobile No." : "मोबाइल नंबर",
+
       "Enter valid Mobile No." : "मान्य मोबाइल नंबर दर्ज करें",
       "Continue" : "आगे बढ़ें",
       "Enter your 4 digit number that has been send to":"अपना 4 अंकीय ओटीपी नंबर दर्ज करें जो कि भेजा गया है",
@@ -27,8 +29,22 @@
       "Mobile No (optional)":"मोबाइल नंबर (वैकल्पिक)",
       "Email ID (optional)":"ईमेल आईडी (वैकल्पिक)",
       "Date of Birth (optional)":"जन्म तिथि (वैकल्पिक)",
+      "Date of Birth":"जन्म तिथि",
+      "Account Holder Name":"खाता धारक का नाम",
+      "Bank Name":"बैंक का नाम",
+      "Account No.":"खाता नंबर।",
+      "IFSC Code":"आईएफएससी कोड",
+      "Referral Code":"रेफरल कोड",
+
+
+
+
+
       "Address Information":"पते की जानकारी",
       "Address (optional)":"पता (वैकल्पिक)",
+      "Address":"पता",
+
+      
       "Paytm Number":"पेटीएम नंबर",
       "Pincode":"पिन कोड",
       "State":"राज्य",

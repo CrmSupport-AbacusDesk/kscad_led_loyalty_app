@@ -18,7 +18,7 @@ export class FaqPage {
     }
     
     ionViewDidLoad() {
-        this.get_user_lang();
+        // this.get_user_lang();
         this.get_question();    
     }
     
