@@ -186,15 +186,15 @@ export class RegistrationPage {
         
         submit()
         {
-            // if(this.data.document_image == '')
-            // {
+            if(this.data.profile == '')
+            {
 
-            //    this.translate.get("Upload Document Is Required!")
-            //    .subscribe(resp=>{
-            //        this.showAlert(resp);
-            //    });
-            //    return;
-            // }
+               this.translate.get("Profile Image Is Required!")
+               .subscribe(resp=>{
+                   this.showAlert(resp);
+               });
+               return;
+            }
 
             // if(this.data.cheque_image == '')
             // {
