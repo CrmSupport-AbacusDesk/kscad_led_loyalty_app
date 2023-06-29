@@ -65,11 +65,11 @@ export class MobileLoginPage {
         {
             console.log(r);
 
-            if(r['user_type'] ==2)
-            {
-                this.RequiredAlert("This Mobile No. Already exists");
-                return false;
-            }
+            // if(r['user_type'] ==4)
+            // {
+            //     this.RequiredAlert("This Mobile No. Already exists");
+            //     return false;
+            // }
             if(r['status'] == "SUCCESS")
             {
                 this.otp=r['otp'];

@@ -189,7 +189,7 @@ export class RegistrationPage {
             if(this.data.profile == '')
             {
 
-               this.translate.get("Profile Image Is Required!")
+               this.translate.get("Profile image is required.")
                .subscribe(resp=>{
                    this.showAlert(resp);
                });
